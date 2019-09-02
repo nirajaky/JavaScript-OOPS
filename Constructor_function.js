@@ -15,7 +15,7 @@ User.prototype.logout = function(){
 }
 
 function Admin(name, email){
-	User.call(this, name, email);
+	User.call(this, name, email); // It can only inherits User properties not User behaviours
 }
 
 Admin.prototype = Object.create(User.prototype); // Inherits User behaviours
