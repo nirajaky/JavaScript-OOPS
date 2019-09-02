@@ -24,6 +24,11 @@ var userOne = new User("Niraj@gmail.com", "Niraj Kumar");
 
 var userTwo = new User("Sonu@gmail.com", "Sonu Kumar");
 
+Admin.prototype.deleteUser = function(user) {
+	//-----------
+	//-----------   to add Admin behaviours
+}
+
 var admin = new Admin("Nirajaky@gmail.com", "Niraj Mehta");
 
 console.log(userOne);
